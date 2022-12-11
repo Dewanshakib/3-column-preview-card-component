@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.mainDiv{
+    background: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerDiv{
+    width: 70%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.leftItem{
+    background: hsl(31, 77%, 52%);
+    padding: 2.3rem;
+    background-image: url(./Design/icon-sedans.svg);
+    background-repeat: no-repeat;
+    background-position: top 14% left 16%;
+}
+.centerItem{
+    background: hsl(184, 100%, 22%);
+    padding: 2.3rem;
+    background-image: url(./Design/icon-suvs.svg);
+    background-repeat: no-repeat;
+    background-position: top 14% left 16%;
+}
+.rightItem{
+    background: hsl(179, 100%, 13%);
+    padding: 2.3rem;
+    background-image: url(./Design/icon-luxury.svg);
+    background-repeat: no-repeat;
+    background-position: top 14% left 16%;
+}
+.leftItem > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    margin-top: 46%;
+}
+.centerItem > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    margin-top: 46%;
+}
+.rightItem > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    margin-top: 46%;
+}
+.leftItem > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 12%;
+    font-size: 15px;
+    line-height: 23px;
+}
+.centerItem > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 12%;
+    font-size: 15px;
+    line-height: 23px;
+}
+.rightItem > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 12%;
+    font-size: 15px;
+    line-height: 23px;
+}
+.btn-l{
+    width: 130px;
+    height: 43px;
+    color: hsl(31, 77%, 52%);
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 54%;
+}
+.btn-c{
+    width: 130px;
+    height: 43px;
+    color: hsl(184, 100%, 22%);
+    background: hsl(0, 0%, 95%); 
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 54%;
+}
+.btn-r{
+    width: 130px;
+    height: 43px;
+    color: hsl(179, 100%, 13%);
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 54%;
+}
+@media screen and (max-width: 375px) {
+    .mainDiv{
+        background: hsl(0, 0%, 95%);
+        width: 100%;
+        height: 100%;
+    }
+    .centerDiv{
+        width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20% 0;
+    }
+    .leftItem{
+        background: hsl(31, 77%, 52%);
+        padding: 2.125rem;
+        background-image: url(./Design/icon-sedans.svg);
+        background-repeat: no-repeat;
+        background-position: top 12% left 13%;
+    }
+    .leftItem > h2{
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 35px;
+        margin-top: 26%;
+        margin-bottom: 6%;
+    }
+    .leftItem > p{
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-top: 0%;
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 7%;
+    }
+    .btn-l{
+        width: 130px;
+        height: 43px;
+        color: hsl(31, 77%, 52%);
+        background: hsl(0, 0%, 95%);
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin-top: 3%;
+    }
+    .centerItem{
+        background: hsl(184, 100%, 22%);
+        padding: 2.3rem;
+        background-image: url(./Design/icon-suvs.svg);
+        background-repeat: no-repeat;
+        background-position: top 12% left 13%;
+    }
+    .centerItem > h2{
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 35px;
+        margin-top: 26%;
+        margin-bottom: 6%;
+    }
+    .centerItem > p{
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-top: 12%;
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 7%;
+    }
+    .btn-c{
+        width: 130px;
+        height: 43px;
+        color: hsl(184, 100%, 22%);
+        background: hsl(0, 0%, 95%); 
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin-top: 3%;
+    }
+    .rightItem{
+        background: hsl(179, 100%, 13%);
+        padding: 2.3rem;
+        background-image: url(./Design/icon-luxury.svg);
+        background-repeat: no-repeat;
+        background-position: top 12% left 13%;
+    }
+    .rightItem > h2{
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 35px;
+        margin-top: 26%;
+        margin-bottom: 6%;
+    }
+    .rightItem > p{
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-top: 12%;
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 7%;
+    }
+    .btn-r{
+        width: 130px;
+        height: 43px;
+        color: hsl(179, 100%, 13%);
+        background: hsl(0, 0%, 95%);
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin-top: 3%;
+    }
+}
