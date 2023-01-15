@@ -28,7 +28,6 @@ body{
     overflow: hidden;
     max-width: 896px;
     max-height: 546px;
-    display : block;
     margin : 0 auto;
 }
 .leftItem{
